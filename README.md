@@ -10,6 +10,7 @@ This is a fork of the [original](https://github.com/cowboysmall-tools/hugo-devre
 * Allow the main CV summary to be split into multiple paragraphs and stop hard coding the avatar path in the template
 * Allow a `url` to be specified in the project properties and allow markdown to be used in the project `tagline`
 * The ability to customise the titles for the different sections of the CV
+* Updated to the latest font awesome version
 
 
 
