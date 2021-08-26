@@ -6,6 +6,7 @@ designed for developers by Xiaoying Riley.
 This is a fork of the [original](https://github.com/cowboysmall-tools/hugo-devresume-theme) that I maintain, so I can add my own features to the template.  I keep this fork maintained due to long-standing PR's and issues in the original repo.  I am more than happy to merge these changes to the original at any point if the original is being maintained again.  Below is a summary of the changes I have made to this repo:
 
 * I have added the ability to load some custom css.  I wanted a little more spacing between certain elements and added this as a custom css file in the `<head>`.
+* Disabled unused pages/routes in the example config file, so we don't get unnecessary files generated
 
 
 
