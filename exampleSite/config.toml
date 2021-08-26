@@ -61,7 +61,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.skills]
         enable = true
-
+        title = "Skills"
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
@@ -99,7 +99,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.education]
         enable = true
-
+        title = "Education"
         [[params.education.list]]
         degree = "MSc in Computer Science"
         university = "University College London"
@@ -118,7 +118,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.awards]
         enable = true
-
+        title = "Awards"
         [[params.awards.list]]
         name = "Award Lorem Ipsum"
         body = "Microsoft lorem ipsum"
@@ -137,7 +137,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.languages]
         enable = true
-
+        title = "Languages"
         [[params.languages.list]]
         name = "English"
         level = "Native"
@@ -154,7 +154,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.interests]
         enable = true
-
+        title = "Interests"
         [[params.interests.list]]
         name = "Climbing"
         [[params.interests.list]]
@@ -187,7 +187,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.experience]
         enable = true
-
+        title = "Work Experience"
         [[params.experience.list]]
         title = "Senior Software Engineer"
         dates = "2019 - Present"
@@ -246,7 +246,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.projects]
         enable = true
-
+        title = "Projects"
         [[params.projects.list]]
         title = "Project Lorem Ipsum"
         url = "https://example.com"
@@ -276,7 +276,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.information]
         enable = true
-
+        title = "Information"
         [[params.information.list]]
         title = "Papers"
         [[params.information.list.items]]
