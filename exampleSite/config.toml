@@ -2,11 +2,11 @@
 
 baseURL = "http://example.org/"
 languageCode = "en"
-title = ""
+title = "Welcome to the CV of Simon Doe"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
-
+#custom_css = "/assets/css/custom.css"
 
 
 
