@@ -8,7 +8,9 @@
                         {{ end }}
 
                         <div class="media-body text-left">
-                            <p class="mb-0">{{ .Site.Params.summary.text | markdownify }}</p>
+                            {{ range .Site.Params.summary.paragraph }}
+                            <p class="mb-0">{{ .text | markdownify }}</p>
+                            {{ end }}
                         </div><!--//media-body-->
 
                     </div>

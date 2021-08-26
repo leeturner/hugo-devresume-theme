@@ -7,6 +7,7 @@ This is a fork of the [original](https://github.com/cowboysmall-tools/hugo-devre
 
 * I have added the ability to load some custom css.  I wanted a little more spacing between certain elements and added this as a custom css file in the `<head>`.
 * Disabled unused pages/routes in the example config file, so we don't get unnecessary files generated
+* Allow the main CV summary to be split into multiple paragraphs
 
 
 
