@@ -6,7 +6,7 @@
         {{ if .Site.Params.achievements.details }}<p>{{ .Site.Params.achievements.details | markdownify }}</p>{{ end }}
         <div class="item mb-3">
             <ul class="resume-list">
-                {{ range .Site.Params.achievements.items }}
+                {{ range .Site.Params.achievements.list }}
                 <li>{{ with .details }}{{ . | markdownify }}{{ end }}</li>
                 {{ end }}
             </ul>
