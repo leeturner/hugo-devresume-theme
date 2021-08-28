@@ -3,7 +3,7 @@
 This is a Hugo port of [DevResume](//github.com/xriley/DevResume-Theme) - a great looking resume/CV template 
 designed for developers by Xiaoying Riley.
 
-This is a fork of the [original](https://github.com/cowboysmall-tools/hugo-devresume-theme) that I maintain, so I can add my own features to the template.  I keep this fork maintained due to long-standing PR's and issues in the original repo.  I am more than happy to merge these changes to the original at any point if the original is being maintained again.  Below is a summary of the changes I have made to this repo:
+This is a fork of the [original](https://github.com/cowboysmall-tools/hugo-devresume-theme) hugo-devresume-theme. I have added a number of additional features to the repo which are summarised below:
 
 * I have added the ability to load some custom css.  I wanted a little more spacing between certain elements and added this as a custom css file in the `<head>`.
 * Disabled unused pages/routes in the example config file, so we don't get unnecessary files generated
@@ -12,7 +12,7 @@ This is a fork of the [original](https://github.com/cowboysmall-tools/hugo-devre
 * The ability to customise the titles for the different sections of the CV
 * Updated to the latest font awesome version
 
-
+If the original repo continues to be maintained I am more than happy to put a PR out for these changes if the original author thinks they are useful.
 
 
 ## Screenshot
