@@ -1,0 +1,15 @@
+
+<section class="achievements-section py-3">
+
+    <h3 class="text-uppercase resume-section-heading mb-4">{{ .Site.Params.achievements.title | default (i18n "achievements") }}</h3>
+    <div class="item-content">
+        {{ if .Site.Params.achievements.details }}<p>{{ .Site.Params.achievements.details | markdownify }}</p>{{ end }}
+        <div class="item mb-3">
+            <ul class="resume-list">
+                {{ range .Site.Params.achievements.items }}
+                <li>{{ with .details }}{{ . | markdownify }}{{ end }}</li>
+                {{ end }}
+            </ul>
+        </div><!--//item-->
+    </div>
+</section>
