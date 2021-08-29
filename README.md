@@ -12,6 +12,7 @@ This is a fork of the [original](https://github.com/cowboysmall-tools/hugo-devre
 * The ability to customise the titles for the different sections of the CV
 * Updated to the latest font awesome version
 * Add a Key Achievements section at the top of the CV
+* Add a Courses & Training section to the CV
 
 If the original repo continues to be maintained I am more than happy to put a PR out for these changes if the original author thinks they are useful.
 

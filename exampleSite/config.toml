@@ -68,6 +68,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
+    [params.trainings]
+        enable = true
+        title = "Courses & Training"
+        [[params.trainings.list]]
+        title = "Kotlin For Java Developers"
+        meta = "Udemy, 2019"
+        tagline = "Up skilling in Kotlin to enable the introduction of Kotlin as an option for Crunch backend developers"
+
+
 
     [params.skills]
         enable = true
